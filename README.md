@@ -1,5 +1,5 @@
 
-# Домашнее задание к занятию "`Система мониторинга Zabbix`" - `Кузьминцев Илья`
+# Домашнее задание к занятию "`Система мониторинга Zabbix. Часть 2`" - `Кузьминцев Илья`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -26,47 +26,20 @@
 ### Задание 1
 
 
-1. ![SNAP1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)
-   ![SNAP2](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)
-2.  
-```
-sudo -s
-apt update && apt upgrade -y
-apt install postgresql
-wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
-dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
-apt update
-apt install zabbix-server-pgsql zabbix-frontend-php php8.3-pgsql zabbix-apache-conf zabbix-sql-scripts
-sudo -u postgres createuser --pwprompt zabbix
-sudo -u postgres createdb -O zabbix zabbix
-zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix
-sed -i 's/# DBPassword=/DBPassword=123456789/g' /etc/zabbix/zabbix_server.conf
-systemctl restart zabbix-server zabbix-agent apache2
-systemctl enable zabbix-server zabbix-agent apache2
-```
+1. ![Задание 1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)
+  
 
+---
 
+### Задание 2-3
 
+1. ![Задание 2-3](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)
+2. ![Задание 2-3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)
+3. ![Задание 2-3](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)
 
 
 ---
 
-### Задание 2
+### Задание 4
 
-1. ![SNAP3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)
-2. ![SNAP4](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)
-3. ![SNAP5](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)
-4. 
-````
-sudo -s
-apt update && apt upgrade -y
-wget https://repo.zabbix.com/zabbix/7.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest_7.0+ubuntu24.04_all.deb
-dpkg -i zabbix-release_latest_7.0+ubuntu24.04_all.deb
-apt update
-apt install zabbix-agent
-systemctl restart zabbix-agent
-systemctl enable zabbix-agent
-sed -i 's/Server=127.0.0.1/Server=10.5.0.7/g' /etc/zabbix/zabbix_agenttd.conf
-systemctl restart zabbix-agent.service
-````
-
+![Задание 4](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)
