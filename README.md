@@ -25,10 +25,9 @@
 
 ### Задание 1
 
-
-1. `![SNAP1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)`
-   `![SNAP2](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)`
-2.  
+`![SNAP1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)`
+`![SNAP2](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)`
+ 
 ```
 sudo -s
 apt update && apt upgrade -y
@@ -53,10 +52,10 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ### Задание 2
 
-1. `![SNAP3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)`
-2. `![SNAP4](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)`
-3. `![SNAP5](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)`
-4. 
+`![SNAP3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)`
+`![SNAP4](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)`
+`![SNAP5](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)`
+ 
 ````
 sudo -s
 apt update && apt upgrade -y
