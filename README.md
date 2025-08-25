@@ -26,20 +26,20 @@
 ### Задание 1
 
 
-1. ![Задание 1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)
+1. ![Задание 1](https://github.com/Freezing22/hw-03/blob/main/img/PNG1.png)
   
 
 ---
 
 ### Задание 2-3
 
-1. ![Задание 2-3](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)
-2. ![Задание 2-3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)
-3. ![Задание 2-3](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)
+1. ![Задание 2-3](https://github.com/Freezing22/hw-03/blob/main/img/PNG2.png)
+2. ![Задание 2-3](https://github.com/Freezing22/hw-03/blob/main/img/PNG3.png)
+3. ![Задание 2-3](https://github.com/Freezing22/hw-03/blob/main/img/PNG4.png)
 
 
 ---
 
 ### Задание 4
 
-![Задание 4](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)
+![Задание 4](https://github.com/Freezing22/hw-03/blob/main/img/PNG5.png)
