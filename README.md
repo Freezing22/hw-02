@@ -25,9 +25,10 @@
 
 ### Задание 1
 
-`![SNAP1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)`
-`![SNAP2](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)`
- 
+
+1. ![SNAP1](https://github.com/Freezing22/hw-02/blob/main/img/PNG1.png)
+   ![SNAP2](https://github.com/Freezing22/hw-02/blob/main/img/PNG2.png)
+2.  
 ```
 sudo -s
 apt update && apt upgrade -y
@@ -52,10 +53,10 @@ systemctl enable zabbix-server zabbix-agent apache2
 
 ### Задание 2
 
-`![SNAP3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)`
-`![SNAP4](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)`
-`![SNAP5](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)`
- 
+1. ![SNAP3](https://github.com/Freezing22/hw-02/blob/main/img/PNG3.png)
+2. ![SNAP4](https://github.com/Freezing22/hw-02/blob/main/img/PNG4.png)
+3. ![SNAP5](https://github.com/Freezing22/hw-02/blob/main/img/PNG5.png)
+4. 
 ````
 sudo -s
 apt update && apt upgrade -y
@@ -68,3 +69,4 @@ systemctl enable zabbix-agent
 sed -i 's/Server=127.0.0.1/Server=10.5.0.7/g' /etc/zabbix/zabbix_agenttd.conf
 systemctl restart zabbix-agent.service
 ````
+
